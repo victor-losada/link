@@ -1,0 +1,39 @@
+body {
+background-color: rgb(213 225 239);
+}
+.container {
+    /* border: 2px solid; */
+    position: static;
+    display: flex;
+    justify-content: center;
+   
+    
+    
+    .attribution { 
+        font-size: 11px;
+     text-align: center;
+      
+     .attribution a { 
+        color: hsl(228, 45%, 44%); 
+        }
+        
+    }
+     
+    .picture {
+        /* border: 2px solid; */
+        width: 250px;
+        height:400px;
+        background-color: white;
+        justify-content: center;
+        display: block;
+        text-align: center;
+        align-items: center;
+        border-radius: 20px;
+
+        .code {
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+    }
+}
+
